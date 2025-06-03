@@ -1,0 +1,48 @@
+.
+├── ./index.html
+├── ./jest.config.ts
+├── ./jest.setup.ts
+├── ./package-lock.json
+├── ./package.json
+├── ./public
+│   ├── ./public/animations
+│   │   ├── ./public/animations/M_Back_Flip.glb
+│   │   ├── ./public/animations/M_Dances_011.glb
+│   │   ├── ./public/animations/M_Standard_Stand_To_Crouch.glb
+│   │   ├── ./public/animations/M_Standing_Expressions_006.glb
+│   │   ├── ./public/animations/M_Standing_Idle_001.glb
+│   │   └── ./public/animations/M_Walk_Backwards_001.glb
+│   ├── ./public/icons
+│   │   ├── ./public/icons/back-flip.png
+│   │   ├── ./public/icons/crouch.png
+│   │   ├── ./public/icons/dancing.png
+│   │   ├── ./public/icons/standing.png
+│   │   ├── ./public/icons/stretching.png
+│   │   └── ./public/icons/walking-back.png
+│   ├── ./public/images
+│   │   ├── ./public/images/sky.png
+│   │   └── ./public/images/surface.jpg
+│   └── ./public/models
+│       ├── ./public/models/avatar.glb
+│       └── ./public/models/model.glb
+├── ./README.md
+├── ./src
+│   ├── ./src/__tests__
+│   │   ├── ./src/__tests__/avatar-controller.test.ts
+│   │   └── ./src/__tests__/load-animation.test.ts
+│   ├── ./src/avatar-controller.ts
+│   ├── ./src/helpers
+│   │   ├── ./src/helpers/controls.ts
+│   │   ├── ./src/helpers/environment.ts
+│   │   ├── ./src/helpers/lighting.ts
+│   │   └── ./src/helpers/scene.ts
+│   ├── ./src/index.css
+│   ├── ./src/stories
+│   │   └── ./src/stories/avatar-controller.stories.ts
+│   ├── ./src/styles
+│   └── ./src/vite-env.d.ts
+├── ./structure.txt
+├── ./tsconfig.json
+└── ./vite.config.ts
+
+11 directories, 35 files
